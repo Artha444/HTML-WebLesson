@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artha</title>
+</head>
+
+<body>
+  <font face="Arial">
+    <h1><u>Lesson 9 Exercises - The div> Element</div></u></h1>
+  </font>
+
+  <h3>CSS - 9a.</h3>
+  <style>
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+  </style>
+  <div class="square"></div>
+
+  <h3>CSS - 9b.</h3>
+  <style>
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      border-radius: 50%;
+    }
+  </style>
+  <div class="circle"></div>
+
+  <h3>CSS - 9c.</h3>
+  <style>
+    .service {
+      border: 1px solid gray;
+      width: 300px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+    }
+  </style>
+  <div class="service">
+    <table>
+      <tr>
+        <td>
+          <p>Satisfied with our service?</p>
+          <button>Yes</button>
+          <button>No</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <h3>CSS - 9d.</h3>
+  <style>
+    .install {
+      background: rgb(33, 31, 31);
+      width: 355px;
+      padding: 1px 15px;
+      color: gray;
+      font-family: Arial;
+    }
+  </style>
+  <div class="install">
+    <font style="color: white; font-size: 25px;
+  ">
+      <p style="margin-bottom: 0px;"><b>Install Youtube Music</b></p>
+    </font>
+    <p>Add YouTube Music to your desktop for quick and <br> easy access</p>
+  </div>
+
+  <h3>CSS - 9e.</h3>
+  <style>
+    .input {
+      width: 250px;
+      border: none;
+    }
+
+    .tweet {
+      background-color: rgb(63, 143, 223);
+      color: white;
+      padding: 7px 15px;
+      border: none;
+      border-radius: 20px;
+    }
+
+    .circle-image {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 10px 10px;
+    }
+  </style>
+  <div style="box-shadow: 0 0 6px rgb(0, 0, 0, 0.5); display: inline-block; border-radius: 5px; padding-right: 20px;">
+    <img style="vertical-align: middle;" class="circle-image" src="matcha.jpg" alt="" width="100px">
+    <input class="input" type="text" placeholder="What's happening?">
+    <button class="tweet"><b>Tweet</b></button>
+  </div>
+
+  <h3>CSS - 9f.</h3>
+  <style>
+    .box {
+      font-family: Arial;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .square-image {
+      width: 180px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    .add {
+      background-color: rgb(63, 143, 223);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 22px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .text {
+      margin-bottom: 5px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  </style>
+  <div class="box">
+    <div class="square-image">
+      <img src="matcha.jpg" alt="" width="300px">
+    </div>
+    <p class="text"><b>Matcha</b></p>
+    <p class="text" style="color: gray;">2 mutual friends</p>
+    <button class="add">Add Friend</button>
+  </div>
+
+  <h3>CSS - 9g.</h3>
+  <div style="display: inline-block;">
+    <div class="box">
+      <div class="square-image">
+        <img src="matcha.jpg" alt="" width="300px">
+      </div>
+      <p class="text"><b>Matcha</b></p>
+      <p class="text" style="color: gray;">3 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+    <div class="box">
+      <div class="square-image">
+        <img src="matcha.jpg" alt="" width="300px">
+      </div>
+      <p class="text"><b>Manggo</b></p>
+      <p class="text" style="color: gray;">1 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+    <div class="box">
+      <div class="square-image">
+        <img src="matcha.jpg" alt="" width="300px">
+      </div>
+      <p class="text"><b>Strawberry</b></p>
+      <p class="text" style="color: gray;">4 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+  </div>
+
+  <h3>CSS - 9h.</h3>
+  <style>
+    .google {
+      width: 200px;
+    }
+
+    .srcGoogle {
+      padding: 10px 10px;
+      width: 400px;
+      border-radius: 20px;
+      border: none;
+      margin-top: 15px;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.4);
+    }
+
+    .button {
+      border: none;
+      padding: 10px 20px;
+      margin-right: 10px;
+      margin-top: 30px;
+    }
+  </style>
+  <div style="text-align: center;">
+    <img class="google" src="google-logo.png" alt="">
+  </div>
+  <div style="text-align: center;">
+    <input class="srcGoogle" type="text" id="name" placeholder="Search Google or type a URL">
+  </div>
+  <div style="text-align: center;">
+    <button class="button"><b>Google Search</b></button>
+    <button class="button"><b>I'm Feeling Lucky</b></button>
+  </div>
+</body>
+
+</html>

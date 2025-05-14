@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artha</title>
+</head>
+
+<body>
+  <font face="Arial">
+    <h1><u>Lesson 4 Exercises - Chrome DevtTools & CSS Box Model</u></h1>
+  </font>
+
+  <h3>CSS - 4h.</h3>
+  <style>
+    .back-next {
+      padding: 10px 5px;
+    }
+  </style>
+  <p>
+    <button class="back-next">Back</button>
+    &nbsp;&nbsp;
+    <a href="">1</a> &nbsp;&nbsp;
+    <a href="">2</a> &nbsp;&nbsp;
+    <a href="">3</a> &nbsp;&nbsp;
+    <a href="">4</a> &nbsp;&nbsp;
+    <a href="">5</a> &nbsp;&nbsp;
+    <button class="back-next">Next</button>
+  </p>
+
+  <h3>CSS - 4i.</h3>
+  <style>
+    .stretch {
+      background-color: rgb(46, 146, 79);
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      transition: padding-left 1s,
+      padding-right 1s,
+      padding-top 1s,
+      padding-bottom 1s;
+      cursor: pointer;
+    }
+    .stretch:hover {
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <button class="stretch">Stretch</button>
+
+  <h3>CSS - 4j.</h3>
+  <style>
+    .shadow {
+      background-color: rgb(46, 146, 79);
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      cursor: pointer;
+      box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.8);
+      margin: 0px;
+    }
+    .shadow:active {
+      box-shadow: none;
+      margin: 3px;
+    }
+  </style>
+  <button class="shadow">Shadow</button>
+
+  <h3>CSS - 4k</h3>
+  <style>
+    .one {
+      background-color: rgb(46, 146, 79);
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      transition: padding 0.3s, margin 0.3s;
+      cursor: pointer;
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+    .one:hover {
+      padding-left: 28px;
+      padding-right: 28px;
+      margin: 0px;
+    }
+    .two {
+      background-color: rgb(46, 146, 79);
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      transition: padding 0.3s, margin 0.3s;
+      cursor: pointer;
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+    .two:hover {
+      padding-left: 32px;
+      padding-right: 32px;
+      margin: 0px;
+    }
+    .three {
+      background-color: rgb(46, 146, 79);
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      transition: padding 0.3s, margin 0.3s;
+      cursor: pointer;
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+    .three:hover {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: 0px;
+    }
+  </style>
+  <button class="one">One</button>
+  &nbsp; &nbsp;
+  <button class="two">Two</button>
+  &nbsp; &nbsp;
+  <button class="three">Three</button>
+</body>
+
+</html>
