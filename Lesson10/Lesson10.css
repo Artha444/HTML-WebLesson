@@ -1,3 +1,39 @@
+h1 {
+  font-family: Arial;
+}
+
+.profile-a {
+  display: flex;
+  align-items: center;
+}
+.profile-picture-a {
+  margin-right: 11px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.follow-margin {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.description {
+  color: gray;
+  font-size: 15px;
+}
+
+.follow {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 60px;
+  border-radius: 8px;
+}
+
 p {
   font-family: Arial;
   margin-top: 0;
@@ -12,7 +48,7 @@ p {
   margin-right: 15px;
 }
 
-.profile-picture {
+.profile-picture-d {
   width: 200px;
   height: 200px;
   object-fit: cover;

@@ -1,3 +1,7 @@
+h1 {
+  font-family: Arial;
+}
+
 .flexbox-a {
   display: flex;
   flex-direction: row;

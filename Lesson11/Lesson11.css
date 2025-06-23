@@ -1,3 +1,7 @@
+h1 {
+  font-family: Arial;
+}
+
 .grid-a {
   display: grid;
   grid-template-columns: 200px 75px;
